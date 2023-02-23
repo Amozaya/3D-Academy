@@ -12,7 +12,7 @@ body{
     color: #3d3d3d;
 }
 
-/* heading */
+/* heading and logo*/
 h1{
     font-family: Montserrat, sans-serif;
     font-weight: 600;
@@ -28,7 +28,35 @@ h2{
     color: #3d3d3d;
 }
 
-#logo{
+/* navbar */
+
+#navbar{
+    overflow: hidden;
+    background-color: #5491eb;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+#navbar a{
     float: left;
-    font-size: 120%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+#navbar h1{
+    float: right;
+    font-size: 250%;
+    margin-right: 30px;
+    color: white;
+    position: relative;
+}
+
+#navbar a:hover{
+    border-bottom: #3d3d3d solid 3px;
+    background-color: #345a94;    
 }
