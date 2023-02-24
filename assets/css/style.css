@@ -60,3 +60,11 @@ h2{
     border-bottom: #3d3d3d solid 3px;
     background-color: #345a94;    
 }
+
+/* Hero image */
+
+#hero-image{
+    height: 640px;
+    width: 100%;
+    background: url('../images/hero-image.png') no-repeat center center;
+}
