@@ -88,7 +88,7 @@ h2{
     letter-spacing: 3px;
     color: white;
 
-    width: 25%px;
+    width: 25%;
     height: auto;
 
     padding-top: 30px;
@@ -111,4 +111,53 @@ h2{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+
+/* About section */
+#about{
+    width: 100%;
+    height: 800px;    
+    overflow: hidden;
+    position: relative;
+    background: #3d3d3d;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+#about-background {
+    width: 100%;
+    min-height: 760px;   
+    background-image: url('../images/about-background.png');    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#profile-card{
+    width: 40%;
+    height: 500;
+
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+
+    background-color: white;
+
+    float: left;
+
+    border: #3d3d3d solid 3px;
+
+    bottom: 40px;
+    left: 100px;
+
+    z-index: 1;
+
+    position: absolute;
 }
