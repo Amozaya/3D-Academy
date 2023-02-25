@@ -255,3 +255,23 @@ h2{
 .course-card-bg{
     border: white solid 4px;
 }
+
+/* Galley */
+#gallery{
+    margin: 100px 0;
+    width: 100%;
+    height: auto;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#gallery > img{
+    width: 100%;    
+}
+
+#gallery > img:hover{
+    transform: scale(150%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
