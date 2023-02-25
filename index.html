@@ -119,7 +119,37 @@
     </section>
 
     <!--Contact form-->
-    <section id="contact-form">Contact Form</section>
+    <section class="section-description">
+        <h2>Interested to join or want to get more details about our courses?</h2>
+        <br>
+        <h3>Fill up the form and we will get in touch with you shortly</h3>
+    </section>
+
+    <section id="contact-form">
+        <form action="https://formdump.codeinstitute.net/" method="post"></form>
+
+        <h2>
+            Contact Form
+        </h2>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="first_name" required class="text-input">
+            
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="last_name" required class="text-input">
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" required class="text-input">
+        
+        <label for="hard-surface">Hard Surface Modeling course</label>
+        <input type="radio" id="hard-surface" name="course_preference" value="hard-surface" required>
+        <label for="character-modeling">Character Modeling course</label>
+        <input type="radio" id="character-modeling" name="course_preference" value="character-modeling">
+        <label for="both">Both</label>
+        <input type="radio" id="both" name="course_preference" value="both">
+        
+        <input type="submit" value="Submit!" class="submit-button">
+    </section>
 
     <footer>
         Links to the social media
