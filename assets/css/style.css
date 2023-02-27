@@ -358,3 +358,47 @@ footer{
     color: white;
     font-size: 150%;
 }
+
+
+
+/* Media queries */
+
+/* For larger to medium screen sizes*/
+@media screen and (max-width: 900px){
+    .section-description{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 150%;
+    }
+
+    #navbar {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+        height: auto;
+    }
+
+    #navbar a{
+        float: left;
+        padding: 4px 4px;
+        margin: 4px 4px;
+        font-size: 80%;
+    }
+
+    #navbar h1{
+        float: left;
+        clear: both;
+        font-size: 150%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #intro-text{
+        right: 0;
+        width: 60%;
+        margin-right: 10px;
+    }
+}
