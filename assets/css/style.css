@@ -104,7 +104,7 @@ h2{
     padding-bottom: 30px;
     padding-right: 20px;
 
-    background-color: rgba(147, 188, 250, 0.8);
+    background-color: rgba(61, 61, 61, 0.6);
 
     bottom: 20px;
     right: 200px;
@@ -156,7 +156,7 @@ h2{
 }
 
 #profile-card{
-    width: 500px;
+    width: 700px;
     max-height: 700px;
     overflow: hidden;
 
@@ -174,8 +174,7 @@ h2{
 }
 
 #profile-picture{
-    width: 100%;      
-    /*float: left;*/
+    width: 100%;   
     padding-top: 20px;    
 }
 
@@ -236,7 +235,7 @@ h2{
 .card {
     /* Add shadows to create the "card" effect */
     height: 600px;
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
     padding: 50px 30px;
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.4);
@@ -284,12 +283,9 @@ h2{
 /* Contact form */
 
 .form-section{
-    width: 100%;
-    height: 600px;    
-    overflow: hidden;
-    position: relative;    
+    height: 800px;    
     margin-top: 100px;
-    margin-bottom: 100px;    
+    margin-bottom: 50px;    
     background: #ccdce6;         
 }
 
@@ -298,9 +294,9 @@ h2{
     background-color: rgba(61, 61, 61, 0.3);
     max-width: 500px;
     position: absolute;
-    left: 50%;
+    left: 30%;
     padding: 30px;
-    transform: translateX(-250px);          
+             
 }
 
 .contact-form h2{
@@ -344,7 +340,7 @@ h2{
 
 /* Footer */
 footer{
-    height: 100px;
+    height: 50px;
     width: 100%;
     background-color: #212121;
     position: fixed;
@@ -358,13 +354,23 @@ footer{
 
 .social-networks li{
     display: inline;
+    margin-bottom: 5px;
 }
 
 .social-networks i{
     margin: 10px;
     padding: 15px;
     color: white;
-    font-size: 150%;
+    font-size: 120%;
+}
+
+/*Thank you message from the sign-up page*/
+.thankyou-message{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;      
+    font-size: 250%;
 }
 
 
@@ -409,4 +415,87 @@ footer{
         width: 60%;
         margin-right: 10px;
     }
+
+    #profile-card{
+        width: 80%;
+        max-height: 80%;
+        left: 0;
+        margin-left: 10px;
+        overflow-y: auto;      
+    }
+
+    #courses{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;    
+    }
+
+    .card{
+        height: auto;
+    }
+    
+    #hard-surface-course{
+        width: 100%;
+        height: auto;    
+        clear: both;
+        padding-bottom: 50px;    
+    }
+    
+    #character-course{
+        width: 100%;
+        height: auto;    
+        clear: both;
+        padding-bottom: 50px;    
+    }
+
+    #gallery{
+        column-count: 3;
+    }
+
+    .form-section{
+        width: 100%;
+        margin: 0 auto;        
+    }
+
+    .contact-form{
+        width: 60%;
+        left: 10%;               
+    }
+}
+
+/* For smaller screen sizes (less than 600px)*/
+@media screen and (max-width: 600px){
+
+    #profile-card{
+        width: 90%;             
+    }
+
+    #hard-surface-course{
+        width: 100%;
+        height: auto;       
+        padding-bottom: 20px;
+        margin: 0 auto;          
+    }
+    
+    #character-course{
+        width: 100%;
+        height: auto;         
+        padding-bottom: 20px;
+        margin: 0 auto;    
+    }
+
+    .card{
+        width: 90%;
+        text-align: center;
+        margin: 0;
+    }    
+
+    #gallery{
+        column-count: 2;
+    }   
+    
+    .contact-form{
+        font-size: 90%;
+    }
+    
 }
