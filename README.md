@@ -38,7 +38,7 @@ This section is describing all the existing features available on the website
 
 -Courses section consists of two Cards with details about the courses. It has the background image on top, showing a 3D model related to the course, and at the bottom description of the course providing the information what course it is, what level of knowledge required and what software students will use.
 
--This section will introduce users to the courses that school is offering, giving them the option of two different course - one is for begginers who want to learn hard surface modeling, and another course at intermidiate level students teaching how to create a character for a video game.
+-This section will introduce users to the courses that school is offering, giving them the option of two different courses - one is for begginers who want to learn hard surface modeling, and another course at intermidiate level students teaching how to create a character for a video game.
 
 ![Courses Screenshot](assets/images/courses-feature.JPG)
 
