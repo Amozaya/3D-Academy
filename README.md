@@ -112,4 +112,34 @@ And here is the code snipet. This code is responsible for increasing the size of
 ![CSS Validator Approved](assets/images/css-validation-pass.JPG)
 
 
+### Manual Testing
+
+In this section I did some manual testing, using various mobile devices, to ensure that website is responsive and adapts to different screen sizes.
+
+* **Samsung S8+ Tablet**
+
+-Here I used my Samsung S8+ tablet, medium size device, to ensure that website behaves correctly. Tablet operates on Android 13 and used Chrome browser:
+
+<img src="assets/images/tabs8-about-section.jpg" alt="Tab S8+ About section vertical view" width=50% height=50%>
+
+<img src="assets/images/tabs8-courses-section.jpg" alt="Tab S8+ Courses section vertical view" width=50% height=50%>
+
+I also did tests using a landscape orientation of the screen:
+
+<img src="assets/images/tabs8-courses-horizontal-test.jpg" alt="Tab S8+ Courses section horizontal view" width=50% height=50%>
+
+<img src="assets/images/tabs8-horizontal-form-test.jpg" alt="Tab S8+ Form section horizontal view" width=50% height=50%>
+
+
+* **Sony mobile phone**
+
+-I used my Sony Xperia 1ii mobile phone in order to test my website on a smaller screen. Phone operates on Adroid 12 and used Chrome browser:
+
+<img src="assets/images/sony-phone-home-section.png" alt="Sony phone Home section" width=50% height=50%>
+
+Due to the smaller screens originally not all the text could fit within the "About" section, so I had to implement a scrollbar in order to allow user to scroll and read through the profile: 
+
+<img src="assets/images/sony-phone-about-section.png" alt="Sony phone About section" width=50% height=50%>
+
+
 
