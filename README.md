@@ -118,7 +118,7 @@ In this section I did some manual testing, using various mobile devices, to ensu
 
 * **Samsung S8+ Tablet**
 
--Here I used my Samsung S8+ tablet, medium size device, to ensure that website behaves correctly. Tablet operates on Android 13 and used Chrome browser:
+-Here I used my Samsung S8+ tablet, medium size device, to ensure that website behaves correctly. Tablet operates on Android 13 and uses Chrome browser:
 
 <img src="assets/images/tabs8-about-section.jpg" alt="Tab S8+ About section vertical view" width=50% height=50%>
 
@@ -133,7 +133,7 @@ I also did tests using a landscape orientation of the screen:
 
 * **Sony mobile phone**
 
--I used my Sony Xperia 1ii mobile phone in order to test my website on a smaller screen. Phone operates on Adroid 12 and used Chrome browser:
+-I used my Sony Xperia 1ii mobile phone in order to test my website on a smaller screen. Phone operates on Adroid 12 and uses Chrome browser:
 
 <img src="assets/images/sony-phone-home-section.png" alt="Sony phone Home section" width=50% height=50%>
 
@@ -141,6 +141,13 @@ Due to the smaller screens originally not all the text could fit within the "Abo
 
 <img src="assets/images/sony-phone-about-section.png" alt="Sony phone About section" width=50% height=50%>
 
+* **Iphone mobile phone**
+
+-For this test I use Iphone 13 Pro to test the responsivnes of the website. Phone operates iOS 16.3.1 and uses Safari browser:
+
+<img src="assets/images/iphone-courses.jpg" alt="Iphone courses section" width=50% height=50%>
+
+<img src="assets/images/iphone-signup-page.jpg" alt="Iphone Sign-up page section" width=50% height=50%>
 
 ### Unfixed bugs
 Here are listed some of the known bugs that currently are not fixed:
@@ -150,5 +157,38 @@ Here are listed some of the known bugs that currently are not fixed:
 -One of the unfixed bugs in the Gallery section. When user hovers a mouse over an image in the gallery, position at the edge of the screen, the images scales up and a part of the image goes outside of the borders of the screen, resulting of that part being cropped:
 
 <img src="assets/images/gallery-bug.png" alt="Gallery bug" width=50% height=50%>
+
+* **Hero image doesn't dislay correctly on iPhone**
+
+-When testing this website on iPhone device I've noticed that the hero image is not displayed correctly. This issue has never appeard on any other devices, including the PC:
+
+<img src="assets/images/iphone-heroimage-bug.jpg" alt="Iphone hero image bug" width=50% height=50%>
+
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://amozaya.github.io/portfolio-1-project/
+
+
+## Credits
+
+**Content**
+
+* For inspiration and guidance whilst working on this project I used "Love Running" project
+* Instructions on how to implement Parral Scrolling were taken from <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">W3School - Parralax Scrolling</a>
+* Instructions on how to implement Cards for Courses section were taken from <a href="https://www.w3schools.com/howto/howto_css_cards.asp">W3School - Cards</a>
+
+**Media**
+* About section background was taken from the project I've been working on called <a href="https://www.oncelostgames.com/the-wayward-realms"> Wayward Realms </a>
+* All the other background or gallery images are my personal work and you can find some of them on my portfolio website - <a href="www.artstation.com/amozaya"> Artstation </a>
+
+
+
+
 
 
