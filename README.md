@@ -142,4 +142,13 @@ Due to the smaller screens originally not all the text could fit within the "Abo
 <img src="assets/images/sony-phone-about-section.png" alt="Sony phone About section" width=50% height=50%>
 
 
+### Unfixed bugs
+Here are listed some of the known bugs that currently are not fixed:
+
+* **Gallery images get cropped at the edge of the screen**
+
+-One of the unfixed bugs in the Gallery section. When user hovers a mouse over an image in the gallery, position at the edge of the screen, the images scales up and a part of the image goes outside of the borders of the screen, resulting of that part being cropped:
+
+<img src="assets/images/gallery-bug.png" alt="Gallery bug" width=50% height=50%>
+
 
