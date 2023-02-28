@@ -2,7 +2,7 @@
 
 3D Academy is an online school for people who want to learn how to create amazing 3D Models for Games or VFX. This website will be useful for people with different levels of 3D modeling knowledge, either people who are completely new, or people who are looking to extend their knowledge. 
 
-This website will provide the information about the school and mentor, who will be running the program, different types of courses this school offers. This website also provides a gallery with mentor's work and a sign-up form for people who want to join the school or get more informattion about the courses.
+This website will provide the information about the school and mentor, who will be running the program, and different types of courses this school offers. This website also provides a gallery with mentor's work and a sign-up form for people who want to join the school or get more informattion about the courses.
 
 ![Responsive Check Screenshot](assets/images/website-responsivnes.JPG)
 
@@ -36,11 +36,26 @@ This section is describing all the existing features available on the website
 
 * **Courses**
 
--Courses section consists of two Cards with details about the courses. It has the background image on top, showing a 3D model related to the course, and at the bottom description of the course providing the information what course it is, what level of knowledge required and what software students will use.
+-Courses section consists of two Cards with details about the courses. It has the background image on top, showing a 3D model related to the course, and at the bottom description of the course providing the information what course it is, what level of knowledge required and what software students will use. This section is responsive and on the smaller screens cards will allign vertically, on top of each other, instead of being two in the row.
 
 -This section will introduce users to the courses that school is offering, giving them the option of two different courses - one is for begginers who want to learn hard surface modeling, and another course at intermidiate level students teaching how to create a character for a video game.
 
 ![Courses Screenshot](assets/images/courses-feature.JPG)
 
+* **Gallery**
+
+-The gallery contains the 3D artwork from mentor's portolio, showcasing the variety of experience and knowledge. 
+
+-This section is important as having a great portfolio showcase can inspire and persuade users to sign up to the program.
+
+![Gallery Screenshot](assets/images/gallery-feature.JPG)
+
+* **Sign-up Form**
+
+-Sign-up is a simple form that allows user to enter their first name, last name, and email address. There are also radio buttons which allow user to select what course they are interested in, either Hard Surface, Character Modeling, or both. All fields are mandatory and user won't be able to submit the form without filling up all the fields and selection one option from the radio buttons.
+
+-This section is important as it allows user to show the interest in joining the school and for the mentor to follow up and provide all the details about the course for the user. 
+
+![Form Screenshot](assets/images/signup-form-feature.JPG)
 
 
