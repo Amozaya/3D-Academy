@@ -185,7 +185,7 @@ The live link can be found here - https://amozaya.github.io/portfolio-1-project/
 
 **Media**
 * About section background was taken from the project I've been working on called <a href="https://www.oncelostgames.com/the-wayward-realms"> Wayward Realms </a>
-* All the other background or gallery images are my personal work and you can find some of them on my portfolio website - <a href="www.artstation.com/amozaya"> Artstation </a>
+* All the other background or gallery images are my personal work and you can find some of them on my portfolio website - <a href="https://www.artstation.com/amozaya"> Artstation </a>
 
 
 
