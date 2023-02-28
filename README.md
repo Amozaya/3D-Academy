@@ -90,5 +90,26 @@ In this section I did some of the automated and manual tests in order to ensure 
 
 ![Gallery code snipet](assets/images/gallery-section-code.JPG)
 
+Here you can see how it looks in the browser:
+![Gallery with heading](assets/images/gallery-with-heading.JPG)
+
+* **CSS**
+
+-After using W3C CSS validator I got an error message saying that on line 278 of my CSS code I used the wrong value for "transform" property:
+
+![CSS Validator error message](assets/images/css-validation-error-message.JPG)
+
+And here is the code snipet. This code is responsible for increasing the size of the image in gallery once the user hovers the mouse over it:
+
+![CSS Code error](assets/images/css-error.JPG)
+
+-Even though the functionality wasn't affected, I still had to fix my code to ensure that all the values are set correctly and my code meets the standards:
+
+![Fixed CCS code](assets/images/css-validator-fix.JPG)
+
+-After this changes I used W3C validator again and my code was approved:
+
+![CSS Validator Approved](assets/images/css-validation-pass.JPG)
+
 
 
