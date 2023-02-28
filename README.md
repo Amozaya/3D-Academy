@@ -58,4 +58,22 @@ This section is describing all the existing features available on the website
 
 ![Form Screenshot](assets/images/signup-form-feature.JPG)
 
+* **Footer**
+
+-Footer is located at the bottom of the page and it contains the links to social medias, such as Instagram, Facebook, Twitter, and Youtube.
+
+-User can use this section to quickly access social medie profiles related to this school or mentor, learn more, or maybe leave a feedback or chat. Because footer is fixed it will always stay at the bottom part of the screen and user doesn't have to scroll all the way down to access the links.
+
+![Footer Screenshot](assets/images/footer-feature.JPG)
+
+* **Sign-up Page**
+
+-Once user completes and submits the sign-up form user will be taken to the new webpage with "Thank you" message. This page consists of Navigation bar, Footer, and a message in the middle. The structure is almost identical to the main page, but with only one difference - Navigation Bar got button only to Home section, which will take the user back to the main page.
+
+-It is important as this section will provide the user with confirmation that form has been submitted and mentor will get in touch soon, and Home button on Navigaton bar will allow user to return back to the main page without using the Back button on their browser.
+
+![Signup Page Screenshot](assets/images/signup-page.JPG)
+
+
+
 
