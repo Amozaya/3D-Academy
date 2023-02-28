@@ -74,6 +74,21 @@ This section is describing all the existing features available on the website
 
 ![Signup Page Screenshot](assets/images/signup-page.JPG)
 
+## Testing
+
+In this section I did some of the automated and manual tests in order to ensure that project is functioning correctly.
+
+### Validator Testing
+
+* **HTML**
+
+-After using W3C Validator I have recieved one warning about my HTML code that suggests using headings for "section" elements:
+
+![HTML Warning message](assets/images/w3c-validator.JPG)
+
+-In this situation, instead of adding headers directly inside the section, I have created separate section inside of my HTML code that contains a header element for each of the section. I found this way to be easier to align the elements and apply different style to them.
+
+![Gallery code snipet](assets/images/gallery-section-code.JPG)
 
 
 
