@@ -70,7 +70,9 @@ This section is describing all the existing features available on the website
 
 -Once user completes and submits the sign-up form user will be taken to the new webpage with "Thank you" message. This page consists of Navigation bar, Footer, and a message in the middle. The structure is almost identical to the main page, but with only one difference - Navigation Bar got button only to Home section, which will take the user back to the main page.
 
--It is important as this section will provide the user with confirmation that form has been submitted and mentor will get in touch soon, and Home button on Navigaton bar will allow user to return back to the main page without using the Back button on their browser.
+-I also added a line in <Meta> that will automatically redirect the user back to the main page after 5 seconds delay.
+
+-It is important as this section will provide the user with confirmation that form has been submitted and mentor will get in touch soon, and automatic redirection will allow user to return back to the main page without using the Back button on their browser. If automatic redirection doesn't work or user doesn't want to wait, there is Home button available on the navigation bar that will take the user back to the home page.
 
 ![Signup Page Screenshot](assets/images/signup-page.JPG)
 
@@ -111,6 +113,12 @@ And here is the code snipet. This code is responsible for increasing the size of
 
 ![CSS Validator Approved](assets/images/css-validation-pass.JPG)
 
+### Chrome Lighthouse testing
+
+I use Chrome devtools, specifically Lightouse tool, in order to analyze the performance of this website. At first, it recieved a quite low performance score due to the fact that some of the images used in this website were of a large size. To improve the performance of the website I had to compress the images to reduce their size and reupload them. After doing so, I did another test using Lighthouse and this time it recieved a high score:
+
+![Lighthouse score](assets/images/lighthouse-performance-report.JPG)
+
 
 ### Manual Testing
 
@@ -133,7 +141,7 @@ I also did tests using a landscape orientation of the screen:
 
 * **Sony mobile phone**
 
--I used my Sony Xperia 1ii mobile phone in order to test my website on a smaller screen. Phone operates on Adroid 12 and uses Chrome browser:
+-I used my Sony Xperia 1ii mobile phone in order to test my website on a smaller screen. Phone operates on Android 12 and uses Chrome browser:
 
 <img src="assets/images/sony-phone-home-section.png" alt="Sony phone Home section" width=50% height=50%>
 
@@ -160,7 +168,7 @@ Here are listed some of the known bugs that currently are not fixed:
 
 * **Hero image doesn't dislay correctly on iPhone**
 
--When testing this website on iPhone device I've noticed that the hero image is not displayed correctly. This issue has never appeard on any other devices, including the PC:
+-When testing this website on iPhone device I've noticed that the hero image is not displayed correctly. This issue has not appeard on any other devices whilst testing:
 
 <img src="assets/images/iphone-heroimage-bug.jpg" alt="Iphone hero image bug" width=50% height=50%>
 
@@ -179,7 +187,7 @@ The live link can be found here - https://amozaya.github.io/portfolio-1-project/
 
 **Content**
 
-* For inspiration and guidance whilst working on this project I used "Love Running" project
+* For inspiration and guidance whilst working on this project I used "Love Running" project 
 * Instructions on how to implement Parral Scrolling were taken from <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">W3School - Parralax Scrolling</a>
 * Instructions on how to implement Cards for Courses section were taken from <a href="https://www.w3schools.com/howto/howto_css_cards.asp">W3School - Cards</a>
 
