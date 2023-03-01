@@ -39,7 +39,7 @@ h2{
 
 #navbar{
     overflow: hidden;
-    background-color: #5491eb;
+    background-color: #1861cd;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -54,6 +54,7 @@ h2{
     padding: 14px 14px;
     text-decoration: none;
     font-family: Montserrat, sans-serif;
+    font-weight: 800;
 }
 
 #navbar h1{
@@ -330,7 +331,7 @@ h2{
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #5491eb;
+    background-color: #1861cd;
     color: #e3dad3;
     display: block;
 }
