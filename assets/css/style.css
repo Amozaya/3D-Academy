@@ -7,8 +7,10 @@
 }
 
 html{
+    /* Smooth scrolling*/
     scroll-behavior: smooth;
 }
+
 
 body{
     font-family: Taviraj, sans-serif;
@@ -121,7 +123,7 @@ h2{
     letter-spacing: 3px;
 }
 
-/* Text that desribes each section*/
+/* Section header*/
 .section-header{
     width: 100%;
     height: auto;
