@@ -22,7 +22,7 @@ This section is describing all the existing features available on the website
 
 -The Hero Image includes a collage of mentor's personal work and it overlayed with a short description of the school. Hero Image features Parallax Scrolling.
 
--This section will introduce the user to the school and will give a first impression about the mentor experience.
+-This section will introduce the user to the school and will give a first impression about the mentor experience as Hero Image showcases mentor's personal work.
 
 ![Hero Image Screenshot](assets/images/hero-image-feature.JPG)
 
