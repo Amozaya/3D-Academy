@@ -80,7 +80,7 @@ h2{
 }
 
 #hero-image{
-    /* Parallax effect from W3Schools*/
+    /* Parallax scrolling from W3Schools*/
     width: 100%;
     min-height: 700px;   
     background-image: url('../images/hero-image.jpg');
@@ -147,6 +147,7 @@ h2{
 }
 
 #about-background {
+    /* Parallax scrolling from W3Schools*/
     width: 100%;
     min-height: 760px;   
     background-image: url('../images/about-background.png');    
