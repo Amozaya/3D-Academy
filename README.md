@@ -12,7 +12,7 @@ This section is describing all the existing features available on the website
 
 * **Navigation bar**
 
--Navigation bar features the links to different sections of the website, such as Home, About, Courses, Gallery, and Contact Form. It is fully responsive, fixed to the top of the page, and it also contains the logo of "3D Academy". Navigation by navbar offers a smooth scrolling through the website for better user experience.
+-Navigation bar features the links to different sections of the website, such as Home, About, Courses, Gallery, and Contact Form. It is fully responsive, fixed to the top of the page, and it also contains the logo of "3D Academy". Navigation by navbar offers a smooth scrolling through the website for a better user experience.
 
 -This section will allow user to easily navigate through the website without scrolling or need to use "Back" button of the browser.
 
@@ -38,7 +38,7 @@ This section is describing all the existing features available on the website
 
 -Courses section consists of two Cards with details about the courses. It has the background image on top, showing a 3D model related to the course, and at the bottom description of the course providing the information what course it is, what level of knowledge required and what software students will use. This section is responsive and on the smaller screens cards will allign vertically, on top of each other, instead of being two in the row.
 
--This section will introduce users to the courses that school is offering, giving them the option of two different courses - one is for begginers who want to learn hard surface modeling, and another course at intermidiate level students teaching how to create a character for a video game.
+-This section will introduce users to the courses that school is offering, giving them the option of two different courses - one is for begginers who want to learn hard surface modeling, and another course is intermidiate level for students who want to learn how to create characters for a video games or VFX.
 
 ![Courses Screenshot](assets/images/courses-feature.JPG)
 
@@ -52,9 +52,9 @@ This section is describing all the existing features available on the website
 
 * **Sign-up Form**
 
--Sign-up is a simple form that allows user to enter their first name, last name, and email address. There are also radio buttons which allow user to select what course they are interested in, either Hard Surface, Character Modeling, or both. All fields are mandatory and user won't be able to submit the form without filling up all the fields and selection one option from the radio buttons.
+-Sign-up is a simple form that allows user to enter their first name, last name, and email address. There are also radio buttons which allow user to select what course they are interested in, either Hard Surface, Character Modeling, or both. All fields are mandatory and user won't be able to submit the form without filling up all the fields and selecting one of the options from the radio buttons.
 
--This section is important as it allows user to show the interest in joining the school and for the mentor to follow up and provide all the details about the course for the user. 
+-This section is important as it allows user to show the interest in joining the school and for the mentor to follow up and provide all the details about the course to the user. 
 
 ![Form Screenshot](assets/images/signup-form-feature.JPG)
 
@@ -78,17 +78,17 @@ This section is describing all the existing features available on the website
 
 ## Testing
 
-In this section I did some of the automated and manual tests in order to ensure that project is functioning correctly.
+In this section I did some of the automated and manual tests in order to ensure that project is working correctly.
 
 ### Validator Testing
 
 * **HTML**
 
--After using W3C Validator I have recieved one warning about my HTML code that suggests using headings for "section" elements:
+-After using W3C Validator I have recieved one warning about my HTML code that suggests using headings for <section> elements:
 
 ![HTML Warning message](assets/images/w3c-validator.JPG)
 
--In this situation, instead of adding headers directly inside the section, I have created separate section inside of my HTML code that contains a header element for each of the section. I found this way to be easier to align the elements and apply different style to them.
+-In this case, instead of adding headers directly inside the section, I have created a separate section inside of my HTML code that contains a header element for each of the section. I found this way to be easier to align the elements and apply different style to them.
 
 ![Gallery code snipet](assets/images/gallery-section-code.JPG)
 
@@ -115,7 +115,7 @@ And here is the code snipet. This code is responsible for increasing the size of
 
 ### Chrome Lighthouse testing
 
-I use Chrome devtools, specifically Lightouse tool, in order to analyze the performance of this website. At first, it recieved a quite low performance score due to the fact that some of the images used in this website were of a large size. To improve the performance of the website I had to compress the images to reduce their size and reupload them. After doing so, I did another test using Lighthouse and this time it recieved a high score:
+I use Chrome devtools, specifically Lightouse tool, in order to analyze the performance of this website. At first, it recieved a quite low performance score due to the fact that some of the images used in this website were of a large size. To improve the performance of the website I had to compress the images to reduce their size and reupload them. After doing so, I did another test using Lighthouse and this time it recieved a much higher score:
 
 ![Lighthouse score](assets/images/lighthouse-performance-report.JPG)
 
@@ -151,7 +151,7 @@ Due to the smaller screens originally not all the text could fit within the "Abo
 
 * **Iphone mobile phone**
 
--For this test I use Iphone 13 Pro to test the responsivnes of the website. Phone operates iOS 16.3.1 and uses Safari browser:
+-For this test I used Iphone 13 Pro to test the responsivnes of the website. Phone operates iOS 16.3.1 and uses Safari browser:
 
 <img src="assets/images/iphone-courses.jpg" alt="Iphone courses section" width=50% height=50%>
 
@@ -162,7 +162,7 @@ Here are listed some of the known bugs that currently are not fixed:
 
 * **Gallery images get cropped at the edge of the screen**
 
--One of the unfixed bugs in the Gallery section. When user hovers a mouse over an image in the gallery, position at the edge of the screen, the images scales up and a part of the image goes outside of the borders of the screen, resulting of that part being cropped:
+-One of the unfixed bugs is in the Gallery section. When user hovers a mouse over an image in the gallery, position at the edge of the screen, the images scales up and a part of the image goes outside of the borders of the screen, resulting of that part being cropped:
 
 <img src="assets/images/gallery-bug.png" alt="Gallery bug" width=50% height=50%>
 
@@ -188,7 +188,7 @@ The live link can be found here - https://amozaya.github.io/portfolio-1-project/
 **Content**
 
 * For inspiration and guidance whilst working on this project I used "Love Running" project 
-* Instructions on how to implement Parral Scrolling were taken from <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">W3School - Parralax Scrolling</a>
+* Instructions on how to implement Parralax Scrolling were taken from <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">W3School - Parralax Scrolling</a>
 * Instructions on how to implement Cards for Courses section were taken from <a href="https://www.w3schools.com/howto/howto_css_cards.asp">W3School - Cards</a>
 
 **Media**
