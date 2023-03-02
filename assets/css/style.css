@@ -80,7 +80,7 @@ h2{
 }
 
 #hero-image{
-    /* Parallax effect */
+    /* Parallax effect from W3Schools*/
     width: 100%;
     min-height: 700px;   
     background-image: url('../images/hero-image.jpg');
@@ -124,7 +124,7 @@ h2{
     letter-spacing: 3px;
 }
 
-/* Section header*/
+/* Sections headers*/
 .section-header{
     width: 100%;
     height: auto;
@@ -380,7 +380,7 @@ footer{
 
 /* Media queries */
 
-/* For larger to medium screen sizes*/
+/* For larger to medium screen sizes up to 900px*/
 @media screen and (max-width: 900px){
     .section-description{
         width: 100%;
@@ -466,7 +466,7 @@ footer{
     }
 }
 
-/* For smaller screen sizes (less than 600px)*/
+/* For smaller screen sizes less than 600px*/
 @media screen and (max-width: 600px){
 
     #profile-card{
