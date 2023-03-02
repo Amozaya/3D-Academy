@@ -180,7 +180,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://amozaya.github.io/portfolio-1-project/
+The live link can be found here - https://amozaya.github.io/3D-Academy/
 
 
 ## Credits
